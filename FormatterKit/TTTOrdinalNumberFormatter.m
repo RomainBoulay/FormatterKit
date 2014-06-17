@@ -151,14 +151,14 @@ static NSString * const kTTTOrdinalNumberFormatterDefaultOrdinalIndicator = @"."
                 ordinalIndicator = @"er";
                 break;
             case TTTOrdinalNumberFormatterFemaleGender:
-                ordinalIndicator = @"ère";
+                ordinalIndicator = @"re";
                 break;
             default:
                 ordinalIndicator = @"er";
                 break;
         }
     } else {
-        ordinalIndicator = @"ème";
+        ordinalIndicator = @"e";
     }
     
     switch (self.grammaticalNumber) {
